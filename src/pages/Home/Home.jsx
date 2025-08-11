@@ -3,7 +3,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import ProductCard from "../../component/ProductCard/ProductCard";
-import "./Home.scss";
+import "./home.scss";
 
 const Home = ({ products = [] }) => {
   const query = useSelector((state) => state.search.query);
