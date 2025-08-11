@@ -1,0 +1,35 @@
+// src/component/SearchResultOverlay/SearchResultOverlay.scss
+.search-result-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 9999;
+  overflow-y: auto;
+  padding: 40px 20px;
+
+  .results-container {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .product-not-found {
+    text-align: center;
+    margin-top: 100px;
+
+    h2 {
+      color: #333;
+    }
+
+    button {
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,124 @@
+    .login-container {
+  padding: clamp(1rem, 2vw, 2rem) 0;
+  background-color: #fff;
+
+ h3 {
+  font-size: clamp(20PX, 3vw, 32PX);
+}
+
+
+ 
+    label {
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+     
+    }
+
+  .custom-input {
+  width: 100%;
+  padding: 0.25rem 1rem;
+   font-size: clamp(14px , 2vw , 10px);
+  border: none;              // sab borders hata do
+  border-bottom: 1px solid #ccc;  // sirf bottom border rakho
+  border-radius: 0;          // koi corner rounding nahi
+  outline: none;             // browser ka default blue outline hata do
+  transition: border-color 0.3s ease;
+
+  &:focus {
+    border-bottom: 2px solid #000; // focus hone par bold bottom border
+  }
+
+  &::placeholder {
+    color: #aaa;
+  }
+}
+
+
+    form label {
+     font-size: clamp(10px , 2vw , 14px);
+      text-transform: uppercase;
+      color: #888;
+    }
+
+    form input::placeholder {
+      color: #ccc;
+    }
+
+
+
+    .inputformButton{
+      font-size: clamp(14px, 2vw, 18px) !important;
+      padding: 5%;
+      
+    }
+
+.checkboxmian{
+
+    margin-top: 7%;
+    margin-bottom: 8%;
+
+}
+
+.Formbuttons{
+    font-size: clamp(14px , 1vw , 18px);
+    &:hover{
+        color: inherit;
+        background-color: #8888885b;
+        border-color: #888;
+    }
+
+    color: gray;
+    background-color:inherit;
+    border-color: #000;
+
+
+.svg-logs{
+        width: 13% !important;
+      }
+
+}
+
+
+}
+
+
+@media (max-width:767px) {
+  
+.checkboxmian{
+
+    margin-top: 2% !important;
+    margin-bottom: 0% !important;
+
+}
+
+   
+
+   h3.mb-4.login-logo {
+     margin-bottom: 0.5rem !important;
+    }
+
+
+
+
+    
+.logo-button.btn {
+        margin-bottom: 0.5rem !important;
+    }
+
+
+    .text-end.forgot.mb-4{
+      margin-bottom: 0.5rem !important;
+    }
+    .login-container label {
+    margin-bottom: 0;
+
+}
+
+.login-container .Formbuttons .svg-logs {
+    width: 5% !important;
+}
+
+}
+
+
+

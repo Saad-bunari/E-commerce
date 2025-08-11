@@ -1,0 +1,74 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-box {
+  background: white;
+  border-radius: 8px;
+  width: 60%;
+  height: 85vh;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+.modal-box .ModalLogosection {
+  background-color: rgb(237, 237, 237);
+}
+
+.close-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  width: 4%;
+  text-align: center;
+  height: 9%;
+  border-radius: 15%;
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  background: #282727;
+  border: none;
+  font-size: clamp(22px, 2vw, 18px);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.modal-content {
+  display: block;
+  padding: 2rem;
+}
+
+@media (max-width: 767px) {
+  .modal-box {
+    width: 85%;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  .close-btn {
+    width: 10%;
+    height: 6%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .modal-box {
+    width: 85%;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  .close-btn {
+    width: 10%;
+    height: 6%;
+  }
+}/*# sourceMappingURL=login.css.map */

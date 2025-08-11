@@ -1,0 +1,30 @@
+.search-bar{
+
+    outline: none;
+    border: 1px solid transparent; 
+    background-color: #f1eded;
+    width: 45vw;
+    height: 5.5vh;
+    border-radius: 5px;
+  
+  }
+
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+
+.search-bar{
+    width: 17vw;
+    height: 3.5vh;
+  }
+
+  
+  
+}
+
+
+@media (width: 1280px) and (height: 800px) and (orientation: landscape) {
+  .search-bar {
+    width: 34vw !important;
+    height: 3.5vh !important;
+  }
+}d

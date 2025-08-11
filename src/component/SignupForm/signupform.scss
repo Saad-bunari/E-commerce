@@ -1,0 +1,118 @@
+    .login-container-2 {
+  padding: clamp(0.5rem, 2vw, 1rem) 0;
+  background-color: #fff;
+
+ h3 {
+  font-size: clamp(16PX, 2vw, 25px);
+}
+
+
+ 
+    label {
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+     
+    }
+
+  .custom-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+   font-size: clamp(14px , 2vw , 10px);
+  border: none;              // sab borders hata do
+  border-bottom: 1px solid #ccc;  // sirf bottom border rakho
+  border-radius: 0;          // koi corner rounding nahi
+  outline: none;             // browser ka default blue outline hata do
+  transition: border-color 0.3s ease;
+
+  &:focus {
+    border-bottom: 2px solid #000; // focus hone par bold bottom border
+  }
+
+  &::placeholder {
+    color: #aaa;
+  }
+}
+
+
+    form label {
+     font-size: clamp(14px , 2vw , 10px);
+      text-transform: uppercase;
+      color: #888;
+      margin: 0;
+    }
+
+    form input::placeholder {
+      color: #ccc;
+    }
+
+
+
+    .signputformButton{
+      font-size: clamp(14px, 2vw, 18px) ;
+      padding: 5%;
+      
+    }
+
+.checkboxmian-sign{
+
+  margin-top: 2%;
+
+  label{
+    font-size: clamp(14px, 2vw, 10px) ;
+  }
+  
+
+
+}
+
+.sigin-paragrap-1{
+
+  font-size: clamp(12px , 1vw , 10px) ;
+  color: #888;
+  margin-top: 3%;
+  margin-bottom: 0;
+  span{
+    
+    color: #000;
+    font-weight: bolder;
+  }
+
+}
+
+.sigin-paragrap-2{
+  font-size: clamp(12px , 1vw , 10px) ;
+  color: #888;
+    margin-top: 3%;
+
+    
+}
+
+
+.SignupFormbuttons{
+    font-size: clamp(14px , 1vw , 18px);
+    &:hover{
+        color: inherit;
+        background-color: #8888885b;
+        border-color: #888;
+    }
+
+    color: gray;
+    background-color:inherit;
+    border-color: #000;
+
+
+.svg-logs{
+        width: 13% !important;
+      }
+
+}
+
+.text-end{
+
+  p{
+margin-bottom: 3%;
+  }
+  
+}
+
+}

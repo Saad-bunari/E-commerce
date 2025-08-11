@@ -1,0 +1,179 @@
+.navbar {
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+    .nave-chld{
+
+
+        position: relative ;
+        bottom: -53px ;
+
+
+
+
+
+
+  .navbar-start{
+
+width: 100vw;
+background-color: white;
+
+
+
+
+
+
+
+.acadmia{
+
+font-size: clamp(5px , 1vw , 12px);
+display: inline-block;
+margin: 0;
+p{
+margin: 0;
+text-align: center;
+width: 32px;
+height: 20px;
+background-color: black;
+color: white;
+border-radius: 3px;
+
+}
+}
+
+
+.dropdown-child{
+
+
+display: flex;
+
+
+}
+
+.blurred {
+  filter: blur(3px);
+  pointer-events: none;
+  user-select: none;
+}
+
+
+
+.navbuttons{
+
+display: flex;
+gap: 5%;
+
+.buttonsonnavbar-1{
+width: clamp(80px, 1vw, 60px );
+height: 45px;
+background-color: black;
+border-color: black;
+
+&:hover{
+  background-color: rgba(0, 0, 0, 0.822);
+}
+
+
+}
+
+.buttonsonnavbar-2{
+font-size: clamp(10px, 1.2vw, 14px);
+width: clamp(100px, 15vw, 130px);
+height: 45px;
+background-color: inherit;
+color: black;
+border-color: black;
+&:hover{
+  background-color: black;
+  color: white;
+}
+}
+
+}
+
+
+
+
+
+  }
+
+
+
+    }
+
+  }
+
+  
+
+.only-margin{
+    margin-top: 2%;
+}
+  
+  
+
+.slider-main {
+    position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+  .slider-container {
+    width: 100%;
+    background-color: #ededed;
+    color: #424141;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-size: clamp(14px, 2vw, 24px);
+    height: 8vh;
+    z-index: 999;
+  }
+
+  .slider-text {
+    will-change: transform;
+    animation: slideText 120s linear infinite;
+    margin: 0;
+    display: inline-block;
+
+    &.paused {
+      animation-play-state: paused;
+    }
+  }
+
+  .slider-item {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 4px 12px;
+    font-size: clamp(14px, 2vw, 22px);
+  }
+.emoji {
+  margin-right: 8px;
+  font-size: clamp(14px, 2vw, 22px);
+}
+  @keyframes slideText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
+
+.live-results-box {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  padding: 16px;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+

@@ -1,0 +1,85 @@
+.login-container {
+  padding: clamp(1rem, 2vw, 2rem) 0;
+  background-color: #fff;
+}
+.login-container h3 {
+  font-size: clamp(20PX, 3vw, 32PX);
+}
+.login-container label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.login-container .custom-input {
+  width: 100%;
+  padding: 0.25rem 1rem;
+  font-size: clamp(14px, 2vw, 10px);
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+.login-container .custom-input:focus {
+  border-bottom: 2px solid #000;
+}
+.login-container .custom-input::-moz-placeholder {
+  color: #aaa;
+}
+.login-container .custom-input::placeholder {
+  color: #aaa;
+}
+.login-container form label {
+  font-size: clamp(10px, 2vw, 14px);
+  text-transform: uppercase;
+  color: #888;
+}
+.login-container form input::-moz-placeholder {
+  color: #ccc;
+}
+.login-container form input::placeholder {
+  color: #ccc;
+}
+.login-container .inputformButton {
+  font-size: clamp(14px, 2vw, 18px) !important;
+  padding: 5%;
+}
+.login-container .checkboxmian {
+  margin-top: 7%;
+  margin-bottom: 8%;
+}
+.login-container .Formbuttons {
+  font-size: clamp(14px, 1vw, 18px);
+  color: gray;
+  background-color: inherit;
+  border-color: #000;
+}
+.login-container .Formbuttons:hover {
+  color: inherit;
+  background-color: rgba(136, 136, 136, 0.3568627451);
+  border-color: #888;
+}
+.login-container .Formbuttons .svg-logs {
+  width: 13% !important;
+}
+
+@media (max-width: 767px) {
+  .checkboxmian {
+    margin-top: 2% !important;
+    margin-bottom: 0% !important;
+  }
+  h3.mb-4.login-logo {
+    margin-bottom: 0.5rem !important;
+  }
+  .logo-button.btn {
+    margin-bottom: 0.5rem !important;
+  }
+  .text-end.forgot.mb-4 {
+    margin-bottom: 0.5rem !important;
+  }
+  .login-container label {
+    margin-bottom: 0;
+  }
+  .login-container .Formbuttons .svg-logs {
+    width: 5% !important;
+  }
+}/*# sourceMappingURL=loginform.css.map */

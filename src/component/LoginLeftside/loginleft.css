@@ -1,0 +1,38 @@
+.loginleftsec {
+  height: 100%;
+  padding: 5%;
+}
+.loginleftsec .loginLeftsecchild {
+  display: flex;
+  flex-direction: column;
+  gap: 27%;
+}
+.loginleftsec .loginLeftsecchild h4 {
+  font-weight: 400;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+}
+.loginleftsec .loginLeftsecchild img {
+  margin-left: auto;
+  width: 85%;
+  height: auto;
+}
+.loginleftsec .loginLeftsecchild p {
+  font-weight: 500;
+  font-size: clamp(10px, 1.6vw, 18px);
+}
+.loginleftsec .loginLeftsecchild p span {
+  color: rgb(173, 172, 172);
+}
+.loginleftsec .loginLeftsecchild p a {
+  color: black;
+}
+
+@media (max-width: 767px) {
+  .loginleftsec {
+    height: auto;
+  }
+  .loginleftsec img {
+    width: 25% !important;
+    margin: 0 !important;
+  }
+}/*# sourceMappingURL=loginleft.css.map */

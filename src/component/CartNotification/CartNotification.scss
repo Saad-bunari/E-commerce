@@ -1,0 +1,25 @@
+.cart-notification-bar {
+  position: fixed;
+  top: 56px; // adjust if your navbar height is different
+  left: 0;
+  width: 100vw;
+  z-index: 1050;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: transparent;
+  padding: 0;
+  .alert {
+    border-radius: 0 0 8px 8px;
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 320px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+}
+
+@media (max-width: 768px) {
+  .cart-notification-bar .alert {
+    max-width: 98vw;
+    min-width: unset;
+    font-size: 0.95rem;
+  }
+} 
