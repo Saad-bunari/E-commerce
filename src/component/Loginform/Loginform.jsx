@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Container, Row, Col } from 'react-bootstrap';
-import './Loginform.scss';
+import './loginform.scss';
 
 const Loginform = () => {
   return (
